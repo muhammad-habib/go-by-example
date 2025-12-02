@@ -34,22 +34,6 @@ Thumbs.db
 cpu.prof
 mem.prof
 
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-
-# OS specific files
-.DS_Store
-Thumbs.db
-
-# Profile files
-*.prof
-cpu.prof
-mem.prof
-
 # Temporary files
 *.tmp
 *.temp
