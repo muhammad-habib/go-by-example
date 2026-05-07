@@ -14,7 +14,7 @@ func TestProductionExperienceAnswer(t *testing.T) {
 		"1M+ users",
 		"Kubernetes",
 		"AWS Lambda",
-		"does not explicitly mention on-call ownership",
+		"production-focused and at scale",
 	}
 
 	for _, phrase := range requiredPhrases {
