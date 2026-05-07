@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestProductionSystemsExperienceAnswerIncludesKeyDetails(t *testing.T) {
+func TestProductionExperienceAnswer(t *testing.T) {
 	answer := ProductionSystemsExperienceAnswer()
 
 	requiredPhrases := []string{
@@ -14,7 +14,7 @@ func TestProductionSystemsExperienceAnswerIncludesKeyDetails(t *testing.T) {
 		"1M+ users",
 		"Kubernetes",
 		"AWS Lambda",
-		"does not explicitly mention on-call",
+		"does not explicitly mention on-call ownership",
 	}
 
 	for _, phrase := range requiredPhrases {
