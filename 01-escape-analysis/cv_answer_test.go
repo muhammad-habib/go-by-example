@@ -14,7 +14,7 @@ func TestProductionSystemsExperienceAnswerIncludesKeyDetails(t *testing.T) {
 		"1M+ users",
 		"Kubernetes",
 		"AWS Lambda",
-		"on-call",
+		"does not explicitly mention on-call",
 	}
 
 	for _, phrase := range requiredPhrases {
